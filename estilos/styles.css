@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.containerHeader {
+    margin-left: 0;
+    
+}
+
+header a:hover {
+    color: #9a7e56;
+}
+
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.imagemFundo {
+    width: 100%;
+    max-height: 850px;
+    object-fit: cover;
+}
+
+.home {
+    margin-top: 20px;
+}
+
+.containerColecao1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixaColecao {
+    max-width: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imagemProduto {
+    max-width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    margin-top: 25px;
+}
+
+
+.contato {
+    margin-top: 50px;
+}
+
+.tituloContato {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #294a62;
+    margin-bottom: 80px;
+}
+
+.containerContato {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerContato p {
+    color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15px 200px;
+    background-color: #bc9f76;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.facebook,
+.whatsapp {
+    width: 35px;
+    margin-left: 15px;
+}
